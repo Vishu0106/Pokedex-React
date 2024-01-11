@@ -28,3 +28,15 @@
     margin: 8px;
 
 }
+
+.similar-pokemons{
+    display: flex;
+    flex-direction: column;
+}
+
+.pokemon-smilar-boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
