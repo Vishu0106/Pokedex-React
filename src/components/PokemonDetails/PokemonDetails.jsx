@@ -7,9 +7,9 @@ import Pokemon from '../Pokemon/Pokemon'
 
 
 
-function PokemonDetails() {
-    const {id} = useParams()
-    const [pokemon,pokemonListState] = usePokemon(id);
+function PokemonDetails({pokemonName}) {
+  
+    const [pokemon,pokemonListState] = usePokemon(pokemonName);
     
     console.log("hillo",pokemon);
     return(
